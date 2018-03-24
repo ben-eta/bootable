@@ -1846,7 +1846,7 @@ int board_init(void)
 	//add ben lcd vdd
 	//lcd_pins_setting();
 
-	//setup_uart();
+	setup_uart();
 	if (cpu_is_mx6q())
 		setup_sata();
 

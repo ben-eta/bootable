@@ -83,7 +83,7 @@
 #define CONFIG_EXTRA_ENV_SETTINGS                                       \
                 "netdev=eth0\0"                                         \
                 "ethprime=FEC0\0"                                       \
-		"bootargs=console= androidboot.console= vmalloc=400M init=/init video=mxcfb0:dev=ldb,LDB-XGA,if=RGB24,bpp=32 ldb=sin0 video=mxcfb1:dev=hdmi,1280x1024M@60,if=RGB24,bpp=32 video=mxcfb2:off video=mxcfb3:off fbmem=18M,28M  androidboot.hardware=freescale "  \
+		"bootargs=console=ttymxc0,115200 androidboot.console=ttymxc0 vmalloc=400M init=/init video=mxcfb0:dev=ldb,LDB-XGA,if=RGB24,bpp=32 ldb=sin0 video=mxcfb1:dev=hdmi,1920x1080M@60,if=RGB24,bpp=32 video=mxcfb2:off video=mxcfb3:off fbmem=18M,28M  androidboot.hardware=freescale "  \
                 "splashimage=0x30000000\0"                              \
                 "splashpos=m,m\0"                                       \
                 "lvds_num=1\0"
