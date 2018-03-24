@@ -953,7 +953,7 @@ struct fsl_esdhc_cfg usdhc_cfg[4] = {
 
 #if defined CONFIG_MX6Q
 iomux_v3_cfg_t usdhc1_pads[] = {
-	MX6Q_PAD_SD1_CLK__USDHC1_CLK,
+	//MX6Q_PAD_SD1_CLK__USDHC1_CLK,
 	MX6Q_PAD_SD1_CMD__USDHC1_CMD,
 	MX6Q_PAD_SD1_DAT0__USDHC1_DAT0,
 	MX6Q_PAD_SD1_DAT1__USDHC1_DAT1,
@@ -997,7 +997,7 @@ iomux_v3_cfg_t usdhc4_pads[] = {
 };
 #elif defined CONFIG_MX6DL
 iomux_v3_cfg_t usdhc1_pads[] = {
-	MX6DL_PAD_SD1_CLK__USDHC1_CLK,
+	//MX6DL_PAD_SD1_CLK__USDHC1_CLK,
 	MX6DL_PAD_SD1_CMD__USDHC1_CMD,
 	MX6DL_PAD_SD1_DAT0__USDHC1_DAT0,
 	MX6DL_PAD_SD1_DAT1__USDHC1_DAT1,
